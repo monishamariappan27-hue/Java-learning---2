@@ -1,0 +1,58 @@
+/*1.class Main {
+    public static int add(int a,int b){
+        int c=a+b;
+        return c;
+    }
+    public static void main(String[] args) {   
+        int res = add(9,4);
+        System.out.println(res);
+        
+    }
+}*/
+/*2.class Main {
+    public static void sub(int a,int b){
+        int c=a-b;
+        System.out.println(c);
+    }
+    public static void main(String[] args) {   
+        sub(9,4);
+        
+    }
+}*/
+/*3.class Main {
+    public static int mul(){
+        int a=2;
+        int b=4;
+        int c=a*b;
+        return c;
+    }
+    public static void main(String[] args) {   
+        System.out.println(mul());
+    }
+}*/
+class Main {
+    public static void div(){
+        int a=16;
+        int b=4;
+        int c=a/b;
+        System.out.println(c);
+    }
+    public static void main(String[] args) {   
+       div();
+    }
+}
+/*class Main {
+    public static String large(int a,int b){
+        if(a>b){
+            return "a is largest";
+        }
+        else{
+            return "b is largest";
+        }
+    }
+    public static void main(String[] args) {   
+        System.out.println(large(5,8));
+        
+    }
+}
+*/
