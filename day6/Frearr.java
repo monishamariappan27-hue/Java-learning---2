@@ -12,6 +12,8 @@ public class Frearr {
 			arr[i]=sc.nextInt();
 		}
 		boolean vis[]=new boolean[n];
+		int maxFre = 0;
+        int maxEle = arr[0];
 		for(int i=0;i<arr.length;i++) {
 			if(vis[i]) {
 				continue;
@@ -24,7 +26,13 @@ public class Frearr {
 				}
 			}
 			System.out.println(arr[i]+ " " +count);
+			if (count > maxFre) {
+                maxFre = count;
+                maxEle = arr[i];
+            }
 		}
+		System.out.println("Highest Element: " + maxEle);
+        System.out.println("Highest Frequency: " + maxFre);
 
 	}
 
